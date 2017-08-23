@@ -1,0 +1,356 @@
+﻿div.everything{
+	margin-left: auto;
+    margin-right: auto; 
+    width: 920px;  
+	
+}
+.topContent{
+	width: 930px;
+	overflow: auto;
+	border: 5px solid pink;
+	border-radius: 15px;
+}    	
+#logoLarge{
+	height: 91px;
+	width: 70px;
+	float:right;
+	position: static;
+	top:200px;
+	right:670px;
+	border:2px solid green;
+	
+}
+
+#iphoneWins{
+color: red;
+font-size: 40px;
+position:relative;
+}
+
+
+.stepcarousel{
+position: inherit; /*leave this value alone*/
+overflow: auto; 
+width: 850px; /*Width of Carousel Viewer itself*/
+height: 700px; /*Height should enough to fit largest content's height*/
+-webkit-box-sizing: border-box; /* set box model so container width and height value includes any padding/border defined */
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+margin-left: auto;
+margin-right: auto; 
+margin-top: 50px;
+}
+
+.stepcarousel .belt{
+position: relative; /*leave this value alone*/
+right: 0px;
+top: 0px;
+
+    
+}
+
+.stepcarousel .panel{
+float: left; /*leave this value alone*/
+overflow: auto; /*clip content that go outside dimensions of holding panel DIV*/
+margin: 1px; /*margin around each panel*/
+width: 850px; /*Width of each panel holding each content. If removed, widths should be individually defined on each content DIV then. */
+}
+
+span.paginatecircle{ /* CSS for paginate circle spans. Required */
+background: white;
+border: 1px solid silver;
+cursor: pointer;
+display: inline-block;
+margin-right: 1px;
+}
+
+span.paginatecircle:hover{
+background: gray;
+}
+
+span.paginatecircle.selected{
+background: black;
+}
+
+#banner{
+	height :65px;
+	width : 826px;
+	text-align : center;
+	margin: 0px;
+	padding;0px;
+}
+.tabs{
+	background-color:green;
+	width: 820px;
+	overflow: auto;
+	position:relative;
+	padding:5px;
+
+}
+
+
+button {
+	position: left;
+	width: 160px;
+	color: green;
+	padding:1px;
+	border: 1px solid;
+	border-radius: 7px;
+	
+}	
+
+body
+{
+	background-color:#fff;
+	color:#000305;
+	font-family: "Times New Roman", Times, serif;
+    margin: 20px 20px;
+    text-align: left;
+}
+
+div.share_box{
+
+    position: fixed;
+	right: 1%;
+    top: 50%;
+    
+}
+
+
+#ip6
+{
+	width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#nav
+{
+    width: 250px;
+    float: left;
+}
+#news
+{	border:5px;
+    width: 200px;
+    background-color:#FFE6E6;
+    padding:2% 5%;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+
+#article
+{
+    float:left;
+    margin-top:0.5%;
+    margin:30px 0px 60px 92px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+h1
+{
+	font-size: 20px;
+	text-align:center;
+	line-height: 0px;
+}
+h2
+{
+	font-size: 20px;
+	text-align:center;
+}
+#image_3
+{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:30px;
+	
+}
+#image_5
+{
+	margin-bottom: 50px;
+	float:left;
+}
+#image_6
+
+	margin-top: 50px;
+	margin-bottom: 0px;
+	float:left;
+
+#image_7
+
+	margin-top: 50px;
+	margin-bottom: 0px;
+
+
+
+#nav, #specs, #article, #table
+{
+	display:inline;
+	
+}
+
+table 
+{
+	width:570px;
+	border: 2px solid;
+	
+	padding:0px;
+	box-shadow: 10px 10px 5px #888888;
+	border:1px solid #000000;
+	overflow:auto;
+	float:right;
+	
+	-moz-border-radius-bottomleft:5px;
+	-webkit-border-bottom-left-radius:5px;
+	border-bottom-left-radius:5px;
+	
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-bottom-right-radius:5px;
+	border-bottom-right-radius:5px;
+	
+	-moz-border-radius-topright:5px;
+	-webkit-border-top-right-radius:5px;
+	border-top-right-radius:5px;
+	
+	-moz-border-radius-topleft:5px;
+	-webkit-border-top-left-radius:5px;
+	border-top-left-radius:5px;
+}
+table {
+    border-collapse: collapse;
+        border-spacing: 0;
+	height:100%;
+	padding:5px;
+}
+table tr:hover td{
+	background-color:#F2F2F2;
+		
+}
+table td{
+	vertical-align:middle;
+	background:-o-linear-gradient(bottom, #ffffff 5%, #F2F2F2 100%);	
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #F2F2F2) ); 
+	background:-moz-linear-gradient( center top, #ffffff 5%, #FFE6E6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#F2F2F2");	background: -o-linear-gradient(top,#ffffff,#F2F2F2);
+	background-color:#ffffff;
+	border:1px solid #000000;
+	border-width:0px 1px 1px 0px;
+	text-align:center;
+	padding:5px;
+	font-size:13px;
+	font-family:Arial;
+	font-weight:normal;
+	color:#000000;
+	
+}table tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}table tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}table tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+table tr:first-child td{
+	background:-o-linear-gradient(bottom, #ffffff 5%, #F2F2F2 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #F2F2F2) );
+	background:-moz-linear-gradient( center top, #ffffff 5%, red 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#F2F2F2");	background: -o-linear-gradient(top,#ffffff,#F2F2F2);
+
+	background-color:#ffffff;
+	border:0px solid #000000;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:13px;
+	font-family:Arial;
+	font-weight:normal;
+	color:#000000;
+}
+table tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #ffffff 5%, #F2F2F2 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #F2F2F2) );
+	background:-moz-linear-gradient( center top, #ffffff 5%, #F2F2F2 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#F2F2F2");	background: -o-linear-gradient(top,#ffffff,#F2F2F2);
+
+	background-color:#ffffff;
+}
+table tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+table tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
+#compare
+{
+	width:700px;
+	float: right;
+	margin: 0px 180px 50px 0px;
+}
+
+div.contactUs{
+	text-align:center;
+	border:5px black ;
+
+}
+
+#popUpDiv {
+position:absolute;
+background:url(ip6.jpg) no-repeat;
+width:400px;
+height:400px;
+border:5px solid #000;
+z-index: 9002;
+}
+
+html, body, #everything { height: 100%; }
+body > #everything { height: auto; min-height: 100%; }
+
+#footer {
+ clear: both;
+ position: relative;
+ z-index: 10;
+ height: 3em;
+ margin-top: -3em;
+ overflow:inherit;
+ background-color: #F2F2F2; 
+font-size: 150%; text-align: center; 
+line-height: 3em;
+margin-bottom: 20px;
+}
+
+
+#everything { padding-bottom: 0em; }
+
+#footer .copyrights p { padding-left: 59px; margin: 0; }
+#footer .copyrights .logo { float: left; margin-left: -59px; }
+
+#credits
+{
+	float:left;
+	margin-left: 150px;
+	text-align: right;
+}
+
+a:link{
+    color:black;
+	a:visited;
+	text-decoration: none;
+}
+button:hover
+{
+    background-color:white;
+}
+button:active
+{
+	background-color:black;
+	color: white;
+}
+form
+{
+	margin-bottom: 150px;
+	
+}
+
+
+
+
+
+
+
